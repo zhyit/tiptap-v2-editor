@@ -63,8 +63,6 @@ const {t, locale} = useI18n()
 // const ydoc = new Y.Doc()
 // 连接 WebSocket 服务
 // const provider = new WebsocketProvider('ws://localhost:30333/yjs', 'ws-tiptap', ydoc)
-// Yjs的历史管理
-// const undoManager = new Y.UndoManager(ydoc.get('prosemirror'))
 // 实例化编辑器
 const editor = useEditor({
   content: ``,
@@ -231,6 +229,7 @@ const handle_table_sel = (editor) => {
   }
 }
 
+
 // 语言切换时，重建编辑器
 /*watch(() => locale, () => {
   if (editor.value) {
@@ -266,6 +265,10 @@ const handle_table_sel = (editor) => {
 <style scoped>
 /* 推荐添加基本样式 */
 :deep(.ProseMirror) {
+  :first-child {
+    margin-top: 0;
+  }
+
   outline: none;
   padding: 0.5rem;
   border: 1px solid #ddd;
@@ -276,7 +279,7 @@ const handle_table_sel = (editor) => {
   width: 100%;
 
   p {
-    margin: 0;
+    word-break: break-all;
   }
 
   /*展示新段落内容为空时的提示语*/
@@ -529,6 +532,33 @@ const handle_table_sel = (editor) => {
   .Tiptap-mathematics-render {
     border-radius: 0.25rem;
     display: inline-block;
+  }
+
+  /* Give a remote user a caret */
+  .collaboration-cursor__caret {
+    border-left: 1px solid #0d0d0d;
+    border-right: 1px solid #0d0d0d;
+    margin-left: -1px;
+    margin-right: -1px;
+    pointer-events: none;
+    position: relative;
+    word-break: normal;
+  }
+
+  /* Render the username above the caret */
+  .collaboration-cursor__label {
+    border-radius: 3px 3px 3px 0;
+    color: #0d0d0d;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    left: -1px;
+    line-height: normal;
+    padding: 0.1rem 0.3rem;
+    position: absolute;
+    top: -1.4em;
+    user-select: none;
+    white-space: nowrap;
   }
 
 }
