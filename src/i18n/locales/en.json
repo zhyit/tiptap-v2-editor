@@ -1,0 +1,52 @@
+{
+  "editor": {
+    "placeholder": "Please enter text...",
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "strike": "Strike",
+      "heading": "Heading",
+      "textColor": "Text Color",
+      "backgroundColor": "Background Color",
+      "underline": "Underline",
+      "code": "Code",
+      "codeBlock": "Code Block",
+      "subscript": "Subscript",
+      "superscript": "superscript",
+      "blockquote": "Blockquote",
+      "orderedList": "Ordered List",
+      "bulletList": "Bullet List",
+      "taskList": "Task List",
+      "listItem": "List Item",
+      "alignLeft": "Align Left",
+      "alignCenter": "Align Center",
+      "alignRight": "Align Right",
+      "alignJustify": "Align Justify",
+      "image": "Image",
+      "table": "Table",
+      "undo": "Undo",
+      "redo": "Redo",
+      "fontColor": "Font Color",
+      "fontFamily": "Font Family",
+      "highlight": "Highlight",
+      "reColor": "ReColor",
+      "insertColumnBefore": "Insert Column Before",
+      "insertColumnAfter": "Insert Column After",
+      "delColumn": "delete Column",
+      "insertRowBefore": "Insert Row Before",
+      "insertRowAfter": "Insert Row After",
+      "delRow": "Delete Row",
+      "delTable": "Delete Table",
+      "mergeCell": "Merge Cell",
+      "splitCell": "Split Cell",
+      "textIndex": "Text Index",
+      "letterSpacing": "Letter Spacing"
+    },
+    "fontFamily": {
+      "clear": "Clear"
+    },
+    "letterSpacing": {
+      "clear": "Clear"
+    }
+  }
+}

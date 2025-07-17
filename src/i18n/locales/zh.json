@@ -1,0 +1,52 @@
+{
+  "editor": {
+    "placeholder": "请输入内容...",
+    "toolbar": {
+      "bold": "加粗",
+      "italic": "斜体",
+      "strike": "倾斜",
+      "heading": "标题",
+      "textColor": "字体颜色",
+      "backgroundColor": "背景颜色",
+      "underline": "下划线",
+      "code": "代码",
+      "codeBlock": "代码块",
+      "subscript": "下标",
+      "superscript": "上标",
+      "blockquote": "引用",
+      "orderedList": "项目符号",
+      "bulletList": "有序列表",
+      "taskList": "任务列表",
+      "listItem": "列表",
+      "alignLeft": "左对齐",
+      "alignCenter": "居中",
+      "alignRight": "右对齐",
+      "alignJustify": "分散对齐",
+      "image": "图片",
+      "table": "表格",
+      "undo": "回滚",
+      "redo": "前进",
+      "fontColor": "字体颜色",
+      "fontFamily": "字体",
+      "highlight": "背景颜色",
+      "reColor": "清除颜色",
+      "insertColumnBefore": "在左侧插入列",
+      "insertColumnAfter": "在右侧插入列",
+      "delColumn": "删除列",
+      "insertRowBefore": "在上方插入行",
+      "insertRowAfter": "在下方插入行",
+      "delRow": "删除行",
+      "delTable": "删除表格",
+      "mergeCell": "合并单元格",
+      "splitCell": "分割单元格",
+      "textIndex": "首行缩进",
+      "letterSpacing": "字体间距"
+    },
+    "fontFamily": {
+      "clear": "清除字体"
+    },
+    "letterSpacing": {
+      "clear": "清除字体间距"
+    }
+  }
+}
